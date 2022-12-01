@@ -22,5 +22,7 @@ def home():
 
  
 if __name__=="__main__":
- app.run(debug=False)
+ if __name__=="__main__":
+    app.run(host=os.getenv('IP', '0.0.0.0'), 
+            port=int(os.getenv('PORT', 4444)))
  
