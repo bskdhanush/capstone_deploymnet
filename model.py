@@ -20,7 +20,7 @@ def predection(sg,al,sod,hemo,pcv,htn,dm):
   print(data)
  # data=sc.fit_transform(data)
   print(data)
-  filename='C:\Anaconda\envs\capstone\deployment\CKD_pred.pkl'
+  filename='CKD_pred.pkl'
   #loaded_model=k.models.load_model('C:\Anaconda\envs\capstone\deployment\ckd_model.h5')
   loaded_model=pickle.load(open(filename,'rb'))
   #loaded_model=joblib.load(filename)
