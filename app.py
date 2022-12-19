@@ -22,4 +22,4 @@ def home():
 
  
 if __name__=="__main__":
-    app.run(host='192.168.10.101',port=80,debug=True) 
+    app.run(debug=True) 
